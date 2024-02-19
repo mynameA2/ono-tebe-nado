@@ -43,8 +43,9 @@
         <h1 class="cover__title">
           <span class="cover__title-top">о<span class="letter-spacing-extended">но</span></span>
           <span class="cover__title-middle"> те<span class="letter-spacing-extended">бе</span> </span>
-          <span class="cover__title-botton"> <span class="letter-spacing-extended">н</span><span>а</span><span>до</span></span>
-        <div class="cover__subline">
+          <span class="cover__title-botton"> <span class="letter-spacing-extended">н</span><span>ад</span><span class="letter-spacing-reset">о</span></span>
+        </h1>
+          <div class="cover__subline">
           <p>АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ </p>
           <button class="button__not-active"> СДЕЛАТЬ СТАВКУ</button>
         </div>
@@ -54,7 +55,7 @@
           <ul class="lots__card-list">
             <li class="lots__card-list-item">
               <a class="lots__card-link" href="#">
-                <article class="lots__card-article overlay" style="background-image:url(./images/card-lot-01.jpg);">
+                <article class="lots__card-article lots__card-article-item-film overlay">
                 <h3 class="lots__card-title">Фильм режиссёра, который бросил киношколу</h3> 
                 <p class="lots__card-discription">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, 
                 если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
@@ -63,7 +64,7 @@
             </li>
             <li class="lots__card-list-item">
               <a class="lots__card-link" href="#">
-                <article class="lots__card-article overlay" style="background-image: url(./images/card-lot-02.jpg);">
+                <article class="lots__card-article lots__card-article-item-book overlay">
                 <h3 class="lots__card-title">Книга, где описан один скучный день из жизни рекламного агента</h3> 
                 <p class="lots__card-discription">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с 
                   переходами на древнеанглийский. В ней одновременно рассказывается о 
@@ -74,7 +75,7 @@
             </li> 
             <li class="lots__card-list-item">
               <a class="lots__card-link" href="#">
-                <article class="lots__card-article overlay" style="background-image: url(./images/card-lot-03.jpg);">
+                <article class="lots__card-article lots__card-article-item-picture overlay">
                 <h3 class="lots__card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3> 
                 <p class="lots__card-discription">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
                   Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, 
@@ -94,17 +95,25 @@
         </a>
         <h2 class="about__header">Об аукционе</h2>
         <div class="about__content">
-          <p class="about__content-top"> Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
-            Наши лоты вообще не должны были попасть ни на один аукцион. 
-            Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
-            Кому нужны все эти странные вещи, созданные любителями?
+          <p>
+          <!-- <p class="about__content-top"> Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.  -->
+            <span>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
+              Наши лоты вообще не должны были попасть ни на один аукцион. 
+              Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
+              Кому нужны все эти странные вещи, созданные любителями?
+            </span>
           </p>
-          <p class="about__content-buttom"> Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
-             В пух и прах растерзанные критиками. Непринятые и непонятые. 
-             Когда-то они казались просто неудачными. Но, несмотря на критику, 
-             кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру.
-             Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
-          </p>  
+          <p>
+            <span>Слишком сложные или, наоборот, слишком простые. 
+              Опережающие своё время. В пух и прах растерзанные критиками.
+               Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+              на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно 
+              представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. 
+              И сейчас эти лоты стали культовыми. 
+          </span>
+          </p>
+          <!-- <p class="about__content-buttom"> Слишком сложные или, наоборот, слишком простые. Опережающие своё время. -->
+             
         </div> 
       </section>
     </main>
@@ -129,7 +138,7 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link footer__social-link-style">
+          <a class="footer__social-link" href="#">
             <img 
               class="footer__social-icon"
               src="./images/yt.svg"
@@ -138,7 +147,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#">
             <img 
               class="footer__social-icon"
               src="./images/vk.svg"
@@ -147,7 +156,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#">
             <img 
               class="footer__social-icon"
               src="./images/pinterest.svg"
